@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is a portfolio website that is made by using html css and advance js. i'm offering the web services as a professionals in my field...">
+    <meta name="keywords" content=" Html Css javascript ">
+    <meta name="author" content="malikwaseemshzad">
+    <title>Waseem Malik Portfolio |Offical Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="favicon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header class="header ">
+        <img src="w name.jpg" alt="Our Main Logo" class="logo">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/service.html" class="navbar-link services-link">Services</a></li>
+                <li><a href="/portfolio.html" class="navbar-link portfolio">Portfolio</a></li>
+                <li><a href="/contact.html" class="navbar-link contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <div class="container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108201.45496996555!2d72.5570408433594!3d32.06125630000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39218571bc482f7b%3A0xf3de3fc9bb1ae1f1!2sThe%20University%20Of%20Lahore%20(Sargodha%20Campus)%20City%20Admission%20Office!5e0!3m2!1sen!2s!4v1697473500706!5m2!1sen!2s"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+    <!--
+            *-------------------------------------*
+            From here our Contact Section start
+            *-------------------------------------*
+    -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">
+                Contact Us
+            </h2>
+        </div>
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/mknlynyy" method="POST">
+                <div class="grid grid-two-colums">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" id="username" placeholder="Name" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="demo@gmail.com" autocomplete="off"
+                            required>
+                    </div>
+
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id=" subject" placeholder="Subject" autocomplete="off" required
+                        minlength="5">
+                </div>
+                <div> <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="5" rows="5" placeholder="Message" autocomplete="off"
+                        required minlength="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="send Message" name="submit" id="submit" class="btn">
+                </div>
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="section section-footer">
+        <div class="container grid grid-four-colums">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site
+                    for your convenience. Hope you like it.</p>
+            </div>
+            <!--End-->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/service.html">Services</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/contact.html">Contact</a>
+
+                    </li>
+                </ul>
+            </div>
+            <!--End-->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/service.html">Web Design</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/service.html">Web Development</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/service.html">Mern Project</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/service.html">Online Classes</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="/service.html">Youtube Course</a>
+
+                    </li>
+                </ul>
+            </div>
+            <!--End-->
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span> <ion-icon name="location-outline"></ion-icon></span>
+                            Sargodha,Pakistan
+                        </p>
+
+                    </div>
+                    <div>
+                        <p>
+                            <span> <ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+923485556271">+92 3485556271</a>
+                        </p>
+
+                    </div>
+                    <div>
+                        <p>
+                            <span> <ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:malikwaseemshzad@gmail.com">malikwaseemshzad@gmail.com</a>
+                        </p>
+
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/waseem_malik547/" target="_waseem">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+
+                </a>
+                <a href="http://wa.me/+923485556271" target="_waseem">
+                    <ion-icon name="logo-whatsapp" class="icons"></ion-icon>
+
+                </a>
+                <a href="https://youtube.com/@WaseemsCodeCampus?si=PBWReNmd2zLkMHzT" target="_waseem">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+
+                </a>
+            </div>
+            <div class="f-credits">
+                <p>
+                    Copyright ©2023 All rights reserved | This is made with ❤ by Waseem Akram
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--Our javascript Link Section-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
